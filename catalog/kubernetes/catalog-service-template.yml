@@ -42,7 +42,7 @@ spec:
               apiVersion: v1
               fieldPath: metadata.namespace
 
-        image: docker.io/rhtgptetraining/foundation-catalog-service:1.0.0
+        image: docker.io/jovemfelix/foundation-catalog-service:1.0.0
         ports:
         - containerPort: 8080
 

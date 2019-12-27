@@ -11,7 +11,7 @@
 # Execution: OpenShift
 #   oc run foundation-catalog-service --image=docker.io/rhtgptetraining/foundation-catalog-service:1.0.0
 
-FROM image-registry-openshift-image-registry.apps.cluster-168f.168f.sandbox779.opentlc.com/user1-tutorial/openjdk-8-rhel8:latest
+FROM openjdk-8-rhel8:latest
 ENV JAVA_APP_DIR=/deployments
 ENV JAEGER_SERVICE_NAME=catalog\
   JAEGER_ENDPOINT=http://jaeger-collector.istio-system.svc:14268/api/traces\
